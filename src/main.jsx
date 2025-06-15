@@ -5,8 +5,4 @@ import { createRoot } from "react-dom/client";
 // import App from "./8-三大属性-props";
 import App from "./App";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+createRoot(document.getElementById("root")).render(<App appname="react" />);

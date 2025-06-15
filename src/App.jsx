@@ -1,12 +1,8 @@
-import React, { Component } from "react";
-import Register from "./Register";
+import React, { useState } from "react";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Register />
-      </div>
-    );
-  }
+function App() {
+  const [count, setCount] = useState(0);
+  return <div>App</div>;
 }
+
+export default App;
